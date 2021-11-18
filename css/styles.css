@@ -148,7 +148,8 @@ button{
     font-weight: var(--font-medium);
 }
 .nav_logo-img{
-    width: 1.25rem;
+    width: 2rem;
+    border-radius: 8px;
 }
 .nav_link,
 .nav_logo,
@@ -656,6 +657,7 @@ button{
     margin-bottom: var(--mb-1);
     font-weight: var(--font-medium);
     color: var(--tittle-color);   
+    border-radius: 8px;
 }
 
 .footer_logo-img{
