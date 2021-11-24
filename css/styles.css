@@ -743,12 +743,14 @@ column-gap: .75rem;
 /* ----------Brack points  */
 
 /* for small devices */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
     .container{
         margin-left: var(--mb-1);
         margin-right: var(--mb-1);
     }
-    
+    .new_button{
+        padding: .3rem;
+    }
     .home_img{
         height: 200px;
     }
@@ -770,6 +772,9 @@ column-gap: .75rem;
 @media screen and (min-width: 650px) {
     body{
         margin: 0;
+    }
+    .new_button{
+        padding: .3rem;
     }
     .section{
         padding: calc(var(--header-height));
@@ -848,6 +853,7 @@ column-gap: .75rem;
         margin-left: auto;
         margin-right: auto;
     }
+   
     .category_container{
         grid-template-columns: repeat(3, 1fr);
     }
