@@ -331,13 +331,18 @@ button{
     font-size: 1.25rem;
 }
 
+
 .button--link{
     color: var(--tittle-color);
 }
 
 .button--flex{
+    top: 10px;
     display: inline-flex;
     align-items: center;
+}
+.button--flex:hover{
+    opacity: 90%;
 }
 
 /* ..............................SWIPER */
@@ -749,6 +754,8 @@ column-gap: .75rem;
     }
     .home_buttons{
         flex-direction: column;
+        gap: 10px;
+        align-items: center;
         width: max-content;
     }
     .category_container,
